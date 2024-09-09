@@ -24,7 +24,7 @@ public class MistakeIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         float sliderPixelWidth = parentRectTransform.rect.width * parentCanvas.scaleFactor;
 
         float targetPos = timeProgress * sliderPixelWidth;
-        rectTransform.anchoredPosition = new Vector2(targetPos / parentCanvas.scaleFactor, 0f);
+        rectTransform.anchoredPosition = new Vector2(targetPos / parentCanvas.scaleFactor, -11f);
     }
 
 
